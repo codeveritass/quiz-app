@@ -79,7 +79,7 @@ main > div > h1 {
     gap: 10px;
 }
 .quizChoices .dybtn {
-    background: none;
+    /* background-color: #fff; */
     border: 1px solid #B38B00;
     border-radius: 5px;
 }
