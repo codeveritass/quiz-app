@@ -78,8 +78,8 @@ main > div > h1 {
     grid-template-columns: 1fr 1fr;
     gap: 10px;
 }
-.quizChoices button {
-    background: none;
+.quizChoices .dybtn {
+    /* background-color: #fff; */
     border: 1px solid #B38B00;
     border-radius: 5px;
 }
@@ -119,7 +119,7 @@ footer{
 }
 
 .correct{
-    background: greenyellow;
+    background-color: greenyellow;
 }
 .incorrect{
     background: red;

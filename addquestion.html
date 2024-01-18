@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <!-- header section -->
+    <header>
+        <h1>Codeveritas</h1>
+    </header>
+    <!-- main section -->
+    <main>        
+        <div>
+            <a href="./index.html">Back to home</a>
+            <h1>Car quiz</h1>
+            <div class="quiz">
+                <div class="quizCenter">
+                    <div class="quizBox">
+                        <form id="add-question-form">
+                            <label for="new-question">New Question:</label>
+                            <input type="text" id="new-question" required>
+                        
+                            <label for="new-choice1">Choice 1:</label>
+                            <input type="text" id="new-choice1" required>
+                        
+                            <label for="new-choice2">Choice 2:</label>
+                            <input type="text" id="new-choice2" required>
+                        
+                            <label for="new-choice3">Choice 3:</label>
+                            <input type="text" id="new-choice3" required>
+                        
+                            <label for="new-choice4">Choice 4:</label>
+                            <input type="text" id="new-choice4" required>
+                        
+                            <label for="correct-answer">Correct Answer (1-4):</label>
+                            <input type="number" id="correct-answer" min="1" max="4" required>
+                        
+                            <button type="button" onclick="addQuestion()">Add Question</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer section -->
+    <footer>
+        Made with ❤️ by Codeveritas 2024.
+    </footer>
+    <script src="addq.js"></script>
+</body>
+</html>
